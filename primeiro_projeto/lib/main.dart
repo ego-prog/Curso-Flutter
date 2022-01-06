@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Primeiro APP',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -117,7 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _decrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.remove),
+        child: const Icon(Icons.adjust_rounded),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
